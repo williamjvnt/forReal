@@ -48,10 +48,10 @@
                         <a class="nav-link" href="{{url('about')}}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My small Project</a>
+                        <a class="nav-link" href="{{url('project')}}">My small Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Other</a>
+                        <a class="nav-link" href="{{url('other')}}">Other</a>
                     </li>
                 </ul>
             </div>

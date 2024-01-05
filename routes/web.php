@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\respController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,9 @@ Route::get('about', function () {
 Route::get('project', function () {
     return view('project');
 });
+
+Route::get('other', function () {
+    return view('other');
+});
+
+Route::resource('/resp', respController::class);
