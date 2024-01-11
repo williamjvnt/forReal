@@ -33,11 +33,25 @@
         font-size: 18px;
         text-align: center;
     }
+
+    /* Responsive */
+    @media screen and (max-width: 700px) {
+        .content {
+            margin: 0 auto;
+            width: 300px;
+            margin-top: 120px;
+
+        }
+
+        main {
+            height: 450px;
+        }
+    }
 </style>
 <div class="content">
     <main>
         <img src="{{asset ('images/kazuha.jpeg')}}" alt="my picture" class="pict">
-        
+
         <div>
             <p style="font-size: 9px; text-align:center"><i>*pict hanya pemanis hehe</i></p>
             <h5><i>Holla!</i> My name is William Juvent</h5>

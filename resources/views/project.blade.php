@@ -25,6 +25,16 @@
         margin-top: 30px;
         text-align: center;
     }
+
+    /* Responsive */
+    @media screen and (max-width: 700px) {
+        main {
+            margin: 0 auto;
+            width: 300px;
+            margin-top: 20px;
+        }
+
+    }
 </style>
 <div>
     <h1>My Current Video</h1>

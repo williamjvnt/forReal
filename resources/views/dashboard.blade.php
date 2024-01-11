@@ -27,6 +27,15 @@
             font-size: 12px;
             margin: 5px;
         }
+
+        /* Responsive */
+        @media screen and (max-width: 412px) {
+            nav {
+                margin: 0;
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 

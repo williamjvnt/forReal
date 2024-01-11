@@ -8,10 +8,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
     }
 
-    h1 {}
+    /* Responsive */
+    @media screen and (max-width: 700px) {
+        main {
+            margin: 0 auto;
+            width: 300px;
+            margin-top: 120px;
+        }
+
+    }
 </style>
 <div>
     <main>

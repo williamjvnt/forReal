@@ -49,6 +49,40 @@
         overflow: hidden;
         text-align: center;
     }
+
+    /* Responsive */
+    @media screen and (max-width: 700px) {
+        .main {
+            margin: 0 auto;
+            width: 300px;
+            height: 200px;
+            height: auto;
+            margin-top: 120px;
+        }
+
+        p {
+            width: 250px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .top {
+            margin-bottom: 50px;
+        }
+
+        .bottom {
+            width: 250px;
+            display: inline;
+            align-items: center;
+
+        }
+
+        .bottom i,
+        .bottom a {
+            margin-bottom: 15px;
+        }
+
+    }
 </style>
 <div class="main">
     <div class="top">
@@ -60,7 +94,7 @@
     </div>
 
 
-    <div class="bottom ">
+    <div class="bottom">
         <i class="fa-brands fa-instagram fa-2xl"></i>
         <a href="https://www.instagram.com/williamjvnt/?hl=id">williamjvnt</a>
         <br>
